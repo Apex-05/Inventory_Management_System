@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 📦 Inventory Management System
 
 A JavaFX-based desktop application to manage products, stock, and customer orders. This system provides two roles: **Manager** and **Customer**, allowing for product additions, updates, inventory tracking, and order placement.
