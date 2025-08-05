@@ -43,4 +43,4 @@ javac --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,java
 ```bash
 java --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml -cp bin com.ui.InventoryManagement
 ```
-
+Replace "/path/to/javafx-sdk/lib" with the actual path on your system.
