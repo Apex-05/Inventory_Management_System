@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📦 Inventory Management System
 
 A JavaFX-based desktop application to manage products, stock, and customer orders. This system provides two roles: **Manager** and **Customer**, allowing for product additions, updates, inventory tracking, and order placement.
@@ -44,3 +45,10 @@ javac --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,java
 java --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml -cp bin com.ui.InventoryManagement
 ```
 Replace "/path/to/javafx-sdk/lib" with the actual path on your system.
+=======
+# Method to compile
+Go to terminal written on top bar -> run Build Task -> On successfull compilation -> go to new cmd -> write the below code in it
+
+java --module-path C:/javafx-sdk-17.0.16/lib --add-modules javafx.controls -cp bin com.ui.InventoryManagement
+
+>>>>>>> 0beb4b8 (Initial commit with JavaFX source code)

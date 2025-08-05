@@ -1,0 +1,33 @@
+# === Java build files ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === VS Code workspace ===
+.vscode/
+
+# === Compiled output ===
+bin/
+out/
+
+# === IDE files ===
+*.iml
+*.ipr
+*.iws
+.idea/
+*.classpath
+*.project
+.settings/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Temporary files ===
+*.tmp
+*.swp
+*.bak
