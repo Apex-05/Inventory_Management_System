@@ -1,11 +1,11 @@
 
-# 📦 Inventory Management System
+# Inventory Management System
 
 A JavaFX-based desktop application to manage products, stock, and customer orders. This system provides two roles: **Manager** and **Customer**, allowing for product additions, updates, inventory tracking, and order placement.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Java 17
 - JavaFX SDK (GUI)
@@ -13,9 +13,9 @@ A JavaFX-based desktop application to manage products, stock, and customer order
 
 ---
 
-## 🚀 Features
+## Features
 
-### 👨‍💼 Manager Portal:
+### Manager Portal:
 - Login with username & password
 - Add new products (ID, Name, Category, Stock, Price)
 - Update existing product details
@@ -31,7 +31,7 @@ A JavaFX-based desktop application to manage products, stock, and customer order
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 ### 1. Setup JavaFx SDK
 Extract and place it somewhere accessible. Note the `/lib` folder path.
