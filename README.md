@@ -38,29 +38,6 @@ This system provides two roles: **Manager** and **Customer**, enabling complete 
 * Browse available products
 * Place orders by entering product ID and quantity
 * View total cost and select delivery mode (Land / Sea)
-
----
-
-## How to Run
-
-### Setup JavaFX SDK
-
-Download and extract JavaFX SDK, and note the `/lib` path.
-
-### Compile all 
-
-```bash
-javac --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml -d bin src/com/inven/*.java src/com/prod/*.java src/com/user/*.java src/com/ord/*.java src/com/ui/*.java
-```
-
-### Run
-
-```bash
-java --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml -cp bin com.ui.InventoryManagement
-```
-
-> Replace `"/path/to/javafx-sdk/lib"` with your actual path.
-
 ---
 
 ## Application Screenshots
@@ -121,7 +98,6 @@ java --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javaf
 
 ![Place Order](images/customer_order_placed.png)
 
-
 ---
 
 ## Folder Structure
@@ -140,4 +116,24 @@ InventoryManagementSystem/
 ├── images/              # Screenshots for README
 └── README.md
 ```
+---
 
+## How to Run
+
+### Setup JavaFX SDK
+
+Download and extract JavaFX SDK, and note the `/lib` path.
+
+### Compile all 
+
+```bash
+javac --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml -d bin src/com/inven/*.java src/com/prod/*.java src/com/user/*.java src/com/ord/*.java src/com/ui/*.java
+```
+
+### Run
+
+```bash
+java --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml -cp bin com.ui.InventoryManagement
+```
+
+> Replace `"/path/to/javafx-sdk/lib"` with your actual path.
