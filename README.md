@@ -46,7 +46,7 @@ This system provides two roles: **Manager** and **Customer**, enabling complete 
 
 ![Login Page](images/login_page.png)
 
-(Invalid Credentials)
+### Invalid Credentials
 
 ![Login Page](images/login_invalid_credentials.png)
 
@@ -137,3 +137,5 @@ java --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javaf
 ```
 
 > Replace `"/path/to/javafx-sdk/lib"` with your actual path.
+
+> Update the `"/path/to/javafx-sdk/lib"` in `.vscode/settings.json` and `.vscode/launch.json` to match your JavaFX SDK location before running.
