@@ -69,6 +69,10 @@ java --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javaf
 
 ![Login Page](images/login_page.png)
 
+(Invalid Credentials)
+
+![Login Page](images/login_invalid_credentials.png)
+
 ---
 
 ## **2. Manager Portal**
@@ -112,6 +116,11 @@ java --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javaf
 ### c. Place Order
 
 ![Place Order](images/customer_place_order.png)
+
+### d. Order placed
+
+![Place Order](images/customer_order_placed.png)
+
 
 ---
 
