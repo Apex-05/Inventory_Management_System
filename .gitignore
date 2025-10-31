@@ -1,23 +1,10 @@
-# === Java Compilation ===
 *.class
-
-# === VS Code project settings ===
 .vscode/
-
-# === Compiled output ===
 bin/
 out/
-
-# === Log files ===
 *.log
-
-# === BlueJ files ===
 *.ctxt
-
-# === Mobile Tools for Java (J2ME) ===
 .mtj.tmp/
-
-# === Package Files ===
 *.jar
 *.war
 *.nar
@@ -25,18 +12,12 @@ out/
 *.zip
 *.tar.gz
 *.rar
-
-# === JVM crash logs ===
 hs_err_pid*
 replay_pid*
-
-# === IntelliJ IDEA ===
 .idea/
 *.iws
 *.iml
 *.ipr
-
-# === Eclipse ===
 .project
 .classpath
 .settings/
